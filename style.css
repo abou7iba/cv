@@ -17,6 +17,16 @@ header
     text-align: center;
     margin-top: 30px;
 }
+header h3
+{
+    letter-spacing: 6px;
+    color: #222831a1;
+}
+header  a
+{
+    color: #222831;
+    text-decoration: none;
+}
 header nav a
 {
     display: inline-block;
@@ -25,16 +35,32 @@ header nav a
     padding: 10px;
     font-size: 20px;
 }
-@media (max-width: 768px ){
+@media (max-width: 720px ){
     header nav a span
     {
         display: none;
     }
-}
+    header h1
+    {
+        font-size: 30px;
+    }
+    header h3
+    {
+        font-size: 20px;
+        letter-spacing: 3px;
+    }
 
+}
 header nav i
 {
     padding: 5px;
+}
+.portfolio
+{
+    padding: 10px;
+    text-align: center;
+    color: #222831;
+    font-weight: 600;
 }
 .section
 {
@@ -73,4 +99,11 @@ header nav i
 .projects a
 {
     color: #222831;
+}
+
+@media (max-width: 720px ){
+    .section
+    {
+        padding: 5px 20px;
+    }
 }
