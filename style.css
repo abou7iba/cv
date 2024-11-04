@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Changa:wght@200..800&display=swap');
+
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Changa", sans-serif;
+}
+.container
+{
+    color: #222831;
+}
+header
+{
+    text-align: center;
+    margin-top: 30px;
+}
+header nav a
+{
+    display: inline-block;
+    margin-top: 10px;
+    color: #222831;
+    padding: 10px;
+    font-size: 20px;
+}
+@media (max-width: 768px ){
+    header nav a span
+    {
+        display: none;
+    }
+}
+
+header nav i
+{
+    padding: 5px;
+}
+.section
+{
+    padding: 10px 50px;
+}
+.section p
+{
+    padding: 10px;
+
+}
+.title
+{
+    display: inline;
+    border-bottom:  4px solid;
+}
+.experience
+{
+    padding: 10px 50px;
+
+}
+
+.skills span{
+    display: inline-block;
+    border: 1px solid;
+    padding: 5px;
+    border-radius: 5px;
+    font-weight: 600;
+    margin: 10px 3px;
+}
+.lang
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.projects a
+{
+    color: #222831;
+}
